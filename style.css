@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    gap: 25px;
+}
+
+.header, .one_main {
+    margin: 12px 100px 100px 100px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.one_main {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    height: 300px;
+}
+
+.hero_left {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 6px;
+    flex: 1 1 auto;
+}
+
+#hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#hero_sec, .header_links {
+    font-size: 18px;
+    color: #E5E7EB;
+} 
+
+#cheetah {
+    width: auto;
+    height: 180px;
+}
+
+.hero_left button {
+    width: 15%;
+    background-color: #3882F6;
+    padding: 5px;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-between;
+    gap: 20px;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+.two .two_top {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.two_bottom {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    gap: 15px;
+}
+
+.two_bottom div {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+}
+
+.two_bottom span {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.two_bottom img {
+    width: 100%;
+    height: auto;
+}
+
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937d3;
+    font-style: oblique;
+    width: 80%;
+}
+
+#speaker {
+    text-align: right;
+    font-weight: bold;
+    width: 75%;
+}
+
+.four {
+    display: flex;
+    background-color: #3882F6;
+    padding: 40px;
+    margin: 60px;
+    border-radius: 12px;
+    justify-content: space-between;
+
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    color: white
+}
+
+.four #call {
+    font-weight: 600;
+    font-size: 20px;
+}
+.four button {
+    padding: 10px;
+    background-color: #3882F6;
+    color: white;
+    border: solid white;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+}
